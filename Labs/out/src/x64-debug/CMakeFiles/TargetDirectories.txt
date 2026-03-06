@@ -1,0 +1,3 @@
+D:/Parallel/ParallelComputing/Labs/out/build/x64-debug/CMakeFiles/Labs.dir
+D:/Parallel/ParallelComputing/Labs/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Parallel/ParallelComputing/Labs/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

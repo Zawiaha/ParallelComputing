@@ -1,0 +1,7 @@
+# ninja log v6
+22	1257	7944758411460599	CMakeFiles/matrix_max_columns.dir/out/src/Matrix.cpp.obj	82b7680cf7b3671
+15	1305	7944759689609359	CMakeFiles/matrix_max_columns.dir/main.cpp.obj	b85a24941597c381
+19	1841	7944758411460599	CMakeFiles/matrix_max_columns.dir/out/src/ExperimentRunner.cpp.obj	e090169217199d53
+21	685	7944759689609359	CMakeFiles/matrix_max_columns.dir/out/src/SequentialAlgorithm.cpp.obj	ae13afee8c3131e5
+27	1112	7944760495323673	CMakeFiles/matrix_max_columns.dir/out/src/ParallelAlgorithm.cpp.obj	12ab93e3ce6e3718
+1114	1297	7944760506240147	matrix_max_columns.exe	c55841b2021b3d9a
