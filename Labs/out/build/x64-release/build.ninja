@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_matrix_max_columns: phony || .
 build CMakeFiles\matrix_max_columns.dir\main.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\main.cpp || cmake_object_order_depends_target_matrix_max_columns
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
-  INCLUDES = -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir
   TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
@@ -62,7 +62,7 @@ build CMakeFiles\matrix_max_columns.dir\main.cpp.obj: CXX_COMPILER__matrix_max_c
 build CMakeFiles\matrix_max_columns.dir\out\src\ExperimentRunner.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\ExperimentRunner.cpp || cmake_object_order_depends_target_matrix_max_columns
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
-  INCLUDES = -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
   TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
@@ -72,7 +72,7 @@ build CMakeFiles\matrix_max_columns.dir\out\src\ExperimentRunner.cpp.obj: CXX_CO
 build CMakeFiles\matrix_max_columns.dir\out\src\Matrix.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\Matrix.cpp || cmake_object_order_depends_target_matrix_max_columns
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
-  INCLUDES = -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
   TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
@@ -82,7 +82,7 @@ build CMakeFiles\matrix_max_columns.dir\out\src\Matrix.cpp.obj: CXX_COMPILER__ma
 build CMakeFiles\matrix_max_columns.dir\out\src\ParallelAlgorithm.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\ParallelAlgorithm.cpp || cmake_object_order_depends_target_matrix_max_columns
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
-  INCLUDES = -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
   TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
@@ -92,7 +92,27 @@ build CMakeFiles\matrix_max_columns.dir\out\src\ParallelAlgorithm.cpp.obj: CXX_C
 build CMakeFiles\matrix_max_columns.dir\out\src\SequentialAlgorithm.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\SequentialAlgorithm.cpp || cmake_object_order_depends_target_matrix_max_columns
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
-  INCLUDES = -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
+  OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
+  TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
+  TARGET_PDB = matrix_max_columns.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\matrix_max_columns.dir
+
+build CMakeFiles\matrix_max_columns.dir\out\src\MPIAlgorithm.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\MPIAlgorithm.cpp || cmake_object_order_depends_target_matrix_max_columns
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
+  OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
+  OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
+  TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
+  TARGET_PDB = matrix_max_columns.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\matrix_max_columns.dir
+
+build CMakeFiles\matrix_max_columns.dir\out\src\CUDAAlgorithm.cpp.obj: CXX_COMPILER__matrix_max_columns_unscanned_Release D$:\Parallel\ParallelComputing\Labs\out\src\CUDAAlgorithm.cpp || cmake_object_order_depends_target_matrix_max_columns
+  CONFIG = Release
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /W4 /O2 /openmp -openmp
+  INCLUDES = -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -ID:\Parallel\ParallelComputing\Labs\out\includeFile
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   OBJECT_FILE_DIR = CMakeFiles\matrix_max_columns.dir\out\src
   TARGET_COMPILE_PDB = CMakeFiles\matrix_max_columns.dir\
@@ -107,11 +127,12 @@ build CMakeFiles\matrix_max_columns.dir\out\src\SequentialAlgorithm.cpp.obj: CXX
 #############################################
 # Link the executable matrix_max_columns.exe
 
-build matrix_max_columns.exe: CXX_EXECUTABLE_LINKER__matrix_max_columns_Release CMakeFiles\matrix_max_columns.dir\main.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\ExperimentRunner.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\Matrix.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\ParallelAlgorithm.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\SequentialAlgorithm.cpp.obj
+build matrix_max_columns.exe: CXX_EXECUTABLE_LINKER__matrix_max_columns_Release CMakeFiles\matrix_max_columns.dir\main.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\ExperimentRunner.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\Matrix.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\ParallelAlgorithm.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\SequentialAlgorithm.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\MPIAlgorithm.cpp.obj CMakeFiles\matrix_max_columns.dir\out\src\CUDAAlgorithm.cpp.obj
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_PATH = -LIBPATH:C:\PROGRA~2\MICROS~3\MPI\Lib\x64   -LIBPATH:C:\PROGRA~1\NVIDIA~2\CUDA\v13.2\lib\x64
   OBJECT_DIR = CMakeFiles\matrix_max_columns.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
